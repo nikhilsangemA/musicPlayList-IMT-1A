@@ -1,0 +1,48 @@
+.homeContainer {
+  background-color: #152850;
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  color: #ffffff;
+  text-align: end;
+}
+
+.bottom-songs-cont {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.input-search-cont {
+  border: 1px solid #ffffff;
+  height: 20px;
+  width: 190px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.input-search-edit {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+ul {
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 60vh;
+  overflow-y: auto;
+}
